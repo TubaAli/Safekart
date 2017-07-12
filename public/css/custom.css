@@ -1,0 +1,23 @@
+#block{
+    background-color: lightgrey;
+}
+.content{
+    background-color: snow;
+}
+.c{
+    background-color: lemonchiffon
+}
+.msg{
+    color : lavender;
+    background-color: chocolate
+}
+.section{
+    background-color: sandybrown;
+    padding: 15px;
+}
+.typewrite {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10px;
+}
