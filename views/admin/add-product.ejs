@@ -1,0 +1,46 @@
+<% layout('layout') -%>
+
+<div class="row">
+  <div class="col-lg-6 col-md-offset-3">
+
+    <% if (message.length > 0) { %>
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismmiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <%= message %>
+      </div>
+    <% } %>
+
+    <form method="post">
+
+      <h1> Add a new Product </h1>
+      <div class="form-group">
+        <label="name">Name: </label>
+        <input type="text" class="form-control" name="name" required>
+        <label="price">Price: </label>
+        <input type="number" class="form-control" name="price" required>
+        <br><label="select">Select Category </label>
+        <li class="dropdown">
+          <select name="category" required>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+              <% for (var i = 0; i < categories.length; i++)  { %>
+  <option id="<%= categories[i]._id %>" value="<%= categories[i]._id %>"><a href="/products/<%= categories[i]._id %>"><%= categories[i].name %></a></option>
+    <% } %>
+</select>
+          </ul>
+        </li>
+        <br>
+        <label="spec">Specification: </label>
+        <input type="text" class="form-control" name="spec" required>
+        <label="uses">Features and Uses: </label>
+        <input type="text" class="form-control" name="uses" required>
+        <label="image">Link to the image </label>
+        <input type="url" class="form-control" name="image" required>
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+
+    </form>
+  </div>
+</div>
