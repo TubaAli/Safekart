@@ -7,3 +7,5 @@ Features:
 4) Providing verified and tested safety devices which follow standards
 5) Additional features like Help Desk, Helpline numbers and Emergency help articles
 Link to additional Information: https://docs.google.com/presentation/d/17i92Rmn7s-DjFmdxc53KIKMAbVJfuAGFeaTx8mE8kRE/edit?usp=sharing
+
+The heroku deployment can be seen here: https://intense-atoll-88551.herokuapp.com/
