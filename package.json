@@ -25,7 +25,7 @@
     "express-session": "^1.15.3",
     "mongoosastic": "^3.6.1",
     "mongoose": "^4.11.1",
-    "morgan": "^1.8.2",
+    "morgan": "^1.9.1",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0"
   }
