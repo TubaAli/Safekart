@@ -20,7 +20,7 @@
     "cookie-parser": "^1.4.3",
     "ejs": "^2.5.6",
     "ejs-mate": "^2.3.0",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "express-flash": "0.0.2",
     "express-session": "^1.15.3",
     "mongoosastic": "^3.6.1",
